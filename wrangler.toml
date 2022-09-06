@@ -1,3 +1,7 @@
-name = "hono-template"
-main = "src/index.ts"
+name = "hono-test"
+main = "src/index.tsx"
 compatibility_date = "2022-07-15"
+
+kv_namespace = [
+   {binding = "HONO_KV_TEST", preview_id ="5b7906ea6167414aa6b143d1a0cee739", id="9d64e4d0b24f415b9876348a2cb7347e"}
+]
